@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4A16D425ABB8B900D32D10 /* evooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A16D325ABB8B900D32D10 /* evooApp.swift */; };
+		EB4A16D625ABB8B900D32D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A16D525ABB8B900D32D10 /* ContentView.swift */; };
+		EB4A16D825ABB8BA00D32D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4A16D725ABB8BA00D32D10 /* Assets.xcassets */; };
+		EB4A16DB25ABB8BA00D32D10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4A16DA25ABB8BA00D32D10 /* Preview Assets.xcassets */; };
+		EB4A16E625ABB8BA00D32D10 /* evooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A16E525ABB8BA00D32D10 /* evooTests.swift */; };
+		EB4A16F125ABB8BA00D32D10 /* evooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A16F025ABB8BA00D32D10 /* evooUITests.swift */; };
+		EB4A170525ABB92300D32D10 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A170125ABB92300D32D10 /* Order.swift */; };
+		EB4A170625ABB92300D32D10 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = EB4A170225ABB92300D32D10 /* menu.json */; };
+		EB4A170725ABB92300D32D10 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A170325ABB92300D32D10 /* Menu.swift */; };
+		EB4A170825ABB92300D32D10 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A170425ABB92300D32D10 /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB4A16E225ABB8BA00D32D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4A16C825ABB8B800D32D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4A16CF25ABB8B900D32D10;
+			remoteInfo = evoo;
+		};
+		EB4A16ED25ABB8BA00D32D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4A16C825ABB8B800D32D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4A16CF25ABB8B900D32D10;
+			remoteInfo = evoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB4A16D025ABB8B900D32D10 /* evoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = evoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4A16D325ABB8B900D32D10 /* evooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evooApp.swift; sourceTree = "<group>"; };
+		EB4A16D525ABB8B900D32D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB4A16D725ABB8BA00D32D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB4A16DA25ABB8BA00D32D10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB4A16DC25ABB8BA00D32D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4A16E125ABB8BA00D32D10 /* evooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4A16E525ABB8BA00D32D10 /* evooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evooTests.swift; sourceTree = "<group>"; };
+		EB4A16E725ABB8BA00D32D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4A16EC25ABB8BA00D32D10 /* evooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = evooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4A16F025ABB8BA00D32D10 /* evooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = evooUITests.swift; sourceTree = "<group>"; };
+		EB4A16F225ABB8BA00D32D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4A170125ABB92300D32D10 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		EB4A170225ABB92300D32D10 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		EB4A170325ABB92300D32D10 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		EB4A170425ABB92300D32D10 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4A16CD25ABB8B900D32D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4A16DE25ABB8BA00D32D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4A16E925ABB8BA00D32D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4A16C725ABB8B800D32D10 = {
+			isa = PBXGroup;
+			children = (
+				EB4A16D225ABB8B900D32D10 /* evoo */,
+				EB4A16E425ABB8BA00D32D10 /* evooTests */,
+				EB4A16EF25ABB8BA00D32D10 /* evooUITests */,
+				EB4A16D125ABB8B900D32D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4A16D125ABB8B900D32D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A16D025ABB8B900D32D10 /* evoo.app */,
+				EB4A16E125ABB8BA00D32D10 /* evooTests.xctest */,
+				EB4A16EC25ABB8BA00D32D10 /* evooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4A16D225ABB8B900D32D10 /* evoo */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A170425ABB92300D32D10 /* Helper.swift */,
+				EB4A170225ABB92300D32D10 /* menu.json */,
+				EB4A170325ABB92300D32D10 /* Menu.swift */,
+				EB4A170125ABB92300D32D10 /* Order.swift */,
+				EB4A16D325ABB8B900D32D10 /* evooApp.swift */,
+				EB4A16D525ABB8B900D32D10 /* ContentView.swift */,
+				EB4A16D725ABB8BA00D32D10 /* Assets.xcassets */,
+				EB4A16DC25ABB8BA00D32D10 /* Info.plist */,
+				EB4A16D925ABB8BA00D32D10 /* Preview Content */,
+			);
+			path = evoo;
+			sourceTree = "<group>";
+		};
+		EB4A16D925ABB8BA00D32D10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A16DA25ABB8BA00D32D10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB4A16E425ABB8BA00D32D10 /* evooTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A16E525ABB8BA00D32D10 /* evooTests.swift */,
+				EB4A16E725ABB8BA00D32D10 /* Info.plist */,
+			);
+			path = evooTests;
+			sourceTree = "<group>";
+		};
+		EB4A16EF25ABB8BA00D32D10 /* evooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A16F025ABB8BA00D32D10 /* evooUITests.swift */,
+				EB4A16F225ABB8BA00D32D10 /* Info.plist */,
+			);
+			path = evooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4A16CF25ABB8B900D32D10 /* evoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4A16F525ABB8BA00D32D10 /* Build configuration list for PBXNativeTarget "evoo" */;
+			buildPhases = (
+				EB4A16CC25ABB8B900D32D10 /* Sources */,
+				EB4A16CD25ABB8B900D32D10 /* Frameworks */,
+				EB4A16CE25ABB8B900D32D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = evoo;
+			productName = evoo;
+			productReference = EB4A16D025ABB8B900D32D10 /* evoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB4A16E025ABB8BA00D32D10 /* evooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4A16F825ABB8BA00D32D10 /* Build configuration list for PBXNativeTarget "evooTests" */;
+			buildPhases = (
+				EB4A16DD25ABB8BA00D32D10 /* Sources */,
+				EB4A16DE25ABB8BA00D32D10 /* Frameworks */,
+				EB4A16DF25ABB8BA00D32D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4A16E325ABB8BA00D32D10 /* PBXTargetDependency */,
+			);
+			name = evooTests;
+			productName = evooTests;
+			productReference = EB4A16E125ABB8BA00D32D10 /* evooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB4A16EB25ABB8BA00D32D10 /* evooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4A16FB25ABB8BA00D32D10 /* Build configuration list for PBXNativeTarget "evooUITests" */;
+			buildPhases = (
+				EB4A16E825ABB8BA00D32D10 /* Sources */,
+				EB4A16E925ABB8BA00D32D10 /* Frameworks */,
+				EB4A16EA25ABB8BA00D32D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4A16EE25ABB8BA00D32D10 /* PBXTargetDependency */,
+			);
+			name = evooUITests;
+			productName = evooUITests;
+			productReference = EB4A16EC25ABB8BA00D32D10 /* evooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4A16C825ABB8B800D32D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EB4A16CF25ABB8B900D32D10 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					EB4A16E025ABB8BA00D32D10 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EB4A16CF25ABB8B900D32D10;
+					};
+					EB4A16EB25ABB8BA00D32D10 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = EB4A16CF25ABB8B900D32D10;
+					};
+				};
+			};
+			buildConfigurationList = EB4A16CB25ABB8B800D32D10 /* Build configuration list for PBXProject "evoo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4A16C725ABB8B800D32D10;
+			productRefGroup = EB4A16D125ABB8B900D32D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4A16CF25ABB8B900D32D10 /* evoo */,
+				EB4A16E025ABB8BA00D32D10 /* evooTests */,
+				EB4A16EB25ABB8BA00D32D10 /* evooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4A16CE25ABB8B900D32D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4A170625ABB92300D32D10 /* menu.json in Resources */,
+				EB4A16DB25ABB8BA00D32D10 /* Preview Assets.xcassets in Resources */,
+				EB4A16D825ABB8BA00D32D10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4A16DF25ABB8BA00D32D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4A16EA25ABB8BA00D32D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4A16CC25ABB8B900D32D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4A170525ABB92300D32D10 /* Order.swift in Sources */,
+				EB4A16D625ABB8B900D32D10 /* ContentView.swift in Sources */,
+				EB4A170825ABB92300D32D10 /* Helper.swift in Sources */,
+				EB4A170725ABB92300D32D10 /* Menu.swift in Sources */,
+				EB4A16D425ABB8B900D32D10 /* evooApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4A16DD25ABB8BA00D32D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4A16E625ABB8BA00D32D10 /* evooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4A16E825ABB8BA00D32D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4A16F125ABB8BA00D32D10 /* evooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB4A16E325ABB8BA00D32D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4A16CF25ABB8B900D32D10 /* evoo */;
+			targetProxy = EB4A16E225ABB8BA00D32D10 /* PBXContainerItemProxy */;
+		};
+		EB4A16EE25ABB8BA00D32D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4A16CF25ABB8B900D32D10 /* evoo */;
+			targetProxy = EB4A16ED25ABB8BA00D32D10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB4A16F325ABB8BA00D32D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB4A16F425ABB8BA00D32D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4A16F625ABB8BA00D32D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"evoo/Preview Content\"";
+				DEVELOPMENT_TEAM = K3MVNKQ2BB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = evoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reidluna.evoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB4A16F725ABB8BA00D32D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"evoo/Preview Content\"";
+				DEVELOPMENT_TEAM = K3MVNKQ2BB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = evoo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reidluna.evoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB4A16F925ABB8BA00D32D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3MVNKQ2BB;
+				INFOPLIST_FILE = evooTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reidluna.evooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evoo.app/evoo";
+			};
+			name = Debug;
+		};
+		EB4A16FA25ABB8BA00D32D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3MVNKQ2BB;
+				INFOPLIST_FILE = evooTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reidluna.evooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/evoo.app/evoo";
+			};
+			name = Release;
+		};
+		EB4A16FC25ABB8BA00D32D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3MVNKQ2BB;
+				INFOPLIST_FILE = evooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reidluna.evooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = evoo;
+			};
+			name = Debug;
+		};
+		EB4A16FD25ABB8BA00D32D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K3MVNKQ2BB;
+				INFOPLIST_FILE = evooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = reidluna.evooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = evoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4A16CB25ABB8B800D32D10 /* Build configuration list for PBXProject "evoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4A16F325ABB8BA00D32D10 /* Debug */,
+				EB4A16F425ABB8BA00D32D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4A16F525ABB8BA00D32D10 /* Build configuration list for PBXNativeTarget "evoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4A16F625ABB8BA00D32D10 /* Debug */,
+				EB4A16F725ABB8BA00D32D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4A16F825ABB8BA00D32D10 /* Build configuration list for PBXNativeTarget "evooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4A16F925ABB8BA00D32D10 /* Debug */,
+				EB4A16FA25ABB8BA00D32D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4A16FB25ABB8BA00D32D10 /* Build configuration list for PBXNativeTarget "evooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4A16FC25ABB8BA00D32D10 /* Debug */,
+				EB4A16FD25ABB8BA00D32D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4A16C825ABB8B800D32D10 /* Project object */;
+}
